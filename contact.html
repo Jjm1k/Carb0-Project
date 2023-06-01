@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Carb0</title>
+<link rel="stylesheet" type="text/css" href="cssart.css" />
+<link rel="shortcut icon" type="image/png" href="favicon.png" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+			<div class="socials">
+				<a href=""><img src="facebooklogo.png" alt=""/></a>
+				<a href=""><img src="twitterlogo.png" alt=""/></a>
+				<a href=""><img src="instagramlogo.png" alt=""/></a>
+				<a href=""><img src="tumblrlogo.png" alt=""/></a>
+			</div>
+		 <a href="Index.html" class="logo"><img src="web112projectlogowebsite.svg" alt="" /></a>
+		<div class="topnav" id="myTopnav">
+		  <div class="navlinks">
+		  <a href="Index.html">Home</a>
+		  <a href="about.html">About</a>
+		  <a href="products.html">Products</a>
+		  <a href="faq.html">FAQ</a>
+		  <a href="contact.html">Contact Us</a>
+		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		  </div>
+		<a class="cart" href="cart.html"><img src="1x/Asset 3.png" alt=""></a>
+		</div>
+		
+		<div class="homesection">
+			<h1 style="font-size: 40px; text-align: center;" id="productssectionh1">Contact Us!</h1>
+			<p style="width: 60%; left: 20%;">Feel free to contact us directly via email by submitting the form below! You can also reach us on any of our social media listed to the left. Thank you for choosing Carb0®!</p>
+			<div style="padding-left: 5%; padding-right: 5%; width: 70%; margin-left: 15%;" class="container">
+			  <form action="/action_page.php">
+			  <div class="row">
+				<div class="col-25">
+				  <label for="fname">First Name</label>
+				</div>
+				<div class="col-75">
+				  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="lname">Last Name</label>
+				</div>
+				<div class="col-75">
+				  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="country">Email</label>
+				</div>
+				<div class="col-75">
+				 <input type="text" id="email" name="lastname" placeholder="Your email..">
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="subject">Subject</label>
+				</div>
+				<div class="col-75">
+				  <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+				</div>
+			  </div>
+			  <br>
+			  <div class="row">
+				<input type="submit" value="Submit">
+			  </div>
+			  </form>
+			</div>
+		</div>
+		
+		<div class="video">
+		<video width="100%" loop="loop" autoplay="autoplay" muted="muted" playsinline="" controls="controls" controlslist="nodownload">
+		  <source src="MVI_1198.mp4" type="video/mp4">
+		  Your browser does not support HTML video.
+		</video>
+		</div>
+		
+		<div class="productsection">
+			
+			<div style="float: left;" class="productgroup">
+				<div class="canphoto">
+				<a href="products.html"><img src="can1isolated.png" alt="" /></a><h3>Pineapple Punch</h3>
+				</div>
+			</div>
+			
+			<div style="float: left;" class="productgroup">
+				<div class="canphoto">
+				<a href="products.html"><img src="can2isolated.png" alt="" /></a><h3>Tropical Berry</h3>
+				</div>
+			</div>
+			
+			<div style="float: left;" class="productgroup">
+				<div class="canphoto">
+				<a href="products.html"><img src="can3isolated.png" alt="" /></a><h3>Cucumber Ginger</h3></div>
+				</div>
+			
+			<div style="float: left;" class="productgroup"><div class="canphoto">
+				<a href="products.html"><img src="can4isolated.png" alt="" /></a><h3>Arctic Frost</h3></div>
+			</div>
+			
+			<li><a href="products.html">Buy Now</a></li>
+	  
+		</div>
+		<div style="clear: left;" ><footer><p>&copy; 2021 Carb0</p></footer></div>
+		
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>	
+
+</body>
+</html>
